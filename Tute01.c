@@ -5,7 +5,20 @@
 #include <stdio.h>
 
 int main() {
-  
+  int m1,m2;
+	float avg;
+		
+			printf("Enter marks for the 1st subject: ");
+		scanf("%d",&m1);
+		
+			printf("\nEnter marks for the 2nd subject: ");
+		scanf("%d",&m2);
+	
+		
+		avg=(m1+m2)/2.0;
+		
+		printf("\nAverage mark of the student is %.2f",avg);
+		
   return 0;
 }
 
